@@ -1,0 +1,130 @@
+/**Google fonts 
+font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Serif', serif;
+**/
+
+
+
+h1 {
+    position: relative;
+    bottom:15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center; 
+    
+}
+  
+h1 a {
+  color: #928C73;
+  text-decoration: none;
+}
+
+
+nav {
+    display: grid;
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 300px;
+    font-family: 'Dancing Script', cursive;
+    font-size:35px;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-bottom: 3px solid #928C73;
+}
+  
+#who {
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+#language {
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+#project {
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+#contact {
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+    
+section {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+article {
+    position: relative;
+    left: 20%;
+    top: 150px;
+    font-family: 'IBM Plex Serif', serif;
+    color:#928C73;
+} 
+
+
+article p {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+}
+  
+.vovo a {
+    color:brown
+    
+}
+
+  
+footer {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #928C73;
+    opacity: 0.8;
+    color: burlywood;
+    z-index: 1;
+}
+    
+.left-section p {
+    position: relative;
+    top: 10px;
+    text-align: left;
+    margin-left: 3%;
+}
+    
+.right-section p {
+    position: relative;
+    bottom: 40px;
+    text-align: right;
+    margin-right: 3%;
+}
+  
+  
+footer p {
+    font-family: 'IBM Plex Serif', serif;
+    margin: 2px;
+    font-size: 13px;
+}
+  
+ 

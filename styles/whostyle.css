@@ -1,0 +1,152 @@
+/**Google fonts 
+font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Serif', serif;
+**/
+
+
+
+h1 {
+  position: relative;
+  bottom:15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center; 
+  
+}
+
+h1 a {
+  color: #928C73;
+  text-decoration: none;
+}
+
+
+nav {
+  display: grid;
+  position: relative;
+  bottom: 40px;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size:35px;
+  padding-left: 0%;
+  padding-right: 0%;
+  border-bottom: 3px solid #928C73;
+}
+
+
+#who {
+  color: burlywood;
+  padding: 10px;
+  text-align: center;
+  text-decoration:underline;
+}
+
+#language {
+  color: burlywood;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#project {
+  color: burlywood;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact {
+  color: burlywood;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+footer {
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: #928C73;
+  opacity: 0.8;
+  color: burlywood;
+  z-index: 1;
+}
+  
+.left-section p {
+  position: relative;
+  top: 10px;
+  text-align: left;
+  margin-left: 3%;
+}
+  
+.right-section p {
+  position: relative;
+  bottom: 40px;
+  text-align: right;
+  margin-right: 3%;
+}
+
+
+footer p {
+  font-family: 'IBM Plex Serif', serif;
+  margin: 2px;
+  font-size: 13px;
+}
+
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+
+article p {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 30px;
+  text-align: left;
+  background-color: rgb(144, 145, 110, 0.4);
+  border-radius: 30px;
+}
+
+h2 {
+  font-family: 'IBM Plex Serif', serif;
+  border-bottom: 1px black;
+}
+
+h3 {
+  position: relative;
+  top: 50px;
+  left: 300px;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 30px;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.korflag {
+  grid-column: 1 / 2;
+  left: 30px;
+  height: 50%;
+}
+.korbrian {
+  grid-column: 2 / 2;
+  height: 80%;
+}
+.uskorflag {
+  grid-column: 1 / 2;
+  left: 30px;
+  height: 50%;
+}
+.campbrian {
+  grid-column: 2 / 2;
+  height: 80%;
+}
