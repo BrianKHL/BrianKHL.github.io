@@ -78,7 +78,6 @@ section {
 article {
     position: relative;
     left: 20%;
-    top: 150px;
     font-family: 'IBM Plex Serif', serif;
     color:#928C73;
 } 
@@ -96,7 +95,7 @@ article p {
 
   
 footer {
-    position:absolute;
+    position:fixed;
     left:0;
     bottom: 0;
     width: 100%;
