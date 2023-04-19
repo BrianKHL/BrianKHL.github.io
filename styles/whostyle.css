@@ -3,8 +3,6 @@ font-family: 'Dancing Script', cursive;
 font-family: 'IBM Plex Serif', serif;
 **/
 
-
-
 h1 {
   position: relative;
   bottom:15px;
@@ -64,6 +62,12 @@ nav {
 }
 
 
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+
 footer {
   left:0;
   bottom: 0;
@@ -88,17 +92,10 @@ footer {
   margin-right: 3%;
 }
 
-
 footer p {
   font-family: 'IBM Plex Serif', serif;
   margin: 2px;
   font-size: 13px;
-}
-
-
-body {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
 }
 
 
